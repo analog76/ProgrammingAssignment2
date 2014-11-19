@@ -59,6 +59,6 @@ cacheSolve <- function(x, ...) {
 	## caches the value in the makeCacheMatrix object.
 	x$setInverseMatrix(inverseMatrix)
 	
-	## returns the value .
+	## returns the inverse of matrix .
 	inverseMatrix
 }
